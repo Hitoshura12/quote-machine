@@ -29,8 +29,6 @@ class App extends Component {
 
     }
     changeOverlayColor = () => {
-        //randomly change background overlay color
-        //function came from ../helpers.js
         this.setState({
             overlayColor: {
                 backgroundColor: randomRgbaColor()
