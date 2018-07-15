@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:600');
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Georgia Pro Light";
+
+}
+.App{
+    height: calc(100vh - (18px + 16px * 2));
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: rgba(255, 255, 255, 0.342);
+    transition: background-color 1.5s ease-in;
+
+}
+
+
+button {
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    outline: none;
+    border-radius: 60px;
+    box-shadow: 0px 0px 2px #888;
+    padding: 0.5em 0.6em;
+    font-size: 0.85em;
+    padding: 8px 18px 6px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+}
+.new-quote{
+    margin-right : 15em;
+    background-color:dodgerblue;
+}
+.tweet-quote{
+    margin-right:.2em;
+    background-color: dodgerblue;
+}
+
+.container {
+    width: 400px;
+    background-color: wheat;
+    padding: 24px;
+    border-radius: 3px;
+    -webkit-box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 3px 3px -1px rgba(0, 0, 0, 0.75)
+}
+.container  .fa-plus-text{
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    font-size: 40px;
+    text-align: center;
+}
+.author {
+    margin-top: 50px;
+    font-size: 0.9em;
+    text-align: right;
+}
+a {color:#FF0000;}      /* unvisited link */
+a:visited {color:#00FF00;}  /* visited link */
+a:hover {color:#FF00FF;}  /* mouse over link */
+a:active {color:#0000FF;}  /* selected link */
+
+.creator{
+    text-decoration: cadetblue;
+    text-align: center;
+}
