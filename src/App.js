@@ -1,18 +1,19 @@
-import React, { Component,Fragment } from 'react';
+import React, { Component } from 'react';
 import './App.css';
 import axios from 'axios'
 import Quote from './components/Quote'
 import randomRgbaColor from './utils/helper'
 
-const api='https://random-quote-generator.herokuapp.com/api/quotes/random';
+//const api='https://random-quote-generator.herokuapp.com/api/quotes/random';
+const api ='https://talaikis.com/api/quotes/random/ '
 class App extends Component {
 
     constructor(props) {
         super(props);
         this.state={
             quote:{
-                quote:'',
-                author:''
+                quote:'Never say never',
+                author:'Justin Bieber'
 
             },
             isLoaded:false,
@@ -54,7 +55,7 @@ this.changeOverlayColor()
 
     shareQuote=()=> {
       const content = `${this.state.quote.quote} \n -- ${this.state.quote.author}`;
-     return content
+     return content;
     };
 
     render() {
