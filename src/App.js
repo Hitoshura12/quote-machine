@@ -4,12 +4,9 @@ import axios from 'axios'
 import Quote from './components/Quote'
 import randomRgbaColor from './utils/helper'
 
-<<<<<<< HEAD
-//const api='https://random-quote-generator.herokuapp.com/api/quotes/random';
+
 const api ='https://talaikis.com/api/quotes/random/ '
-=======
-const api='https://talaikis.com/random_quotes_api/';
->>>>>>> 1802416d8126702a54c9e7f8803b873f6fcaf2a1
+
 class App extends Component {
 
     constructor(props) {
